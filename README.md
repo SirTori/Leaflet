@@ -1,3 +1,9 @@
+## Why this fork
+
+This fork fixes IE performance issues in 0.7.7 as described in this [stackoverflow thread](https://stackoverflow.com/questions/38678272/poor-leaflet-js-performance-in-internet-explorer).
+the files in `/dist` have been build with the fix and can be used directly.
+
+
 <img src="http://leafletjs.com/docs/images/logo.png" alt="Leaflet" />
 
 Leaflet is an open source JavaScript library for **mobile-friendly interactive maps**.

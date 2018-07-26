@@ -19,7 +19,7 @@ L.DomEvent = {
 		if (L.Browser.pointer && type.indexOf('touch') === 0) {
 			return this.addPointerListener(obj, type, handler, id);
 		}
-		if (L.Browser.touch && (type === 'dblclick') && this.addDoubleTapListener) {
+		if (!L.Browser.ie && L.Browser.touch && (type === 'dblclick') && this.addDoubleTapListener) {
 			this.addDoubleTapListener(obj, handler, id);
 		}
 
